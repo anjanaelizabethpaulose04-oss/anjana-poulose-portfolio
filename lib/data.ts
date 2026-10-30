@@ -1,26 +1,24 @@
 export const profile = {
   name: "Anjana Poulose",
   initials: "AP",
-  role: "Digital Marketing Specialist & UX-Minded Strategist",
+  role: "Digital Marketing Coordinator & UX-Minded Strategist",
   tagline: "Turning ideas into measurable growth.",
   location: "Mississauga, Ontario, Canada",
   phone: "+1 249-989-5321",
   email: "anjanapaulose0404@gmail.com",
   linkedin: "https://www.linkedin.com/in/anjanapoulose",
-  resumeUrl:
-    "https://78fa928e-c0bc-4e52-82d0-b87c48953e0e.filesusr.com/ugd/2ef1a5_42e3d4a545ee4cff94a3f0e3bcd85008.pdf",
-  resumePreviewImage:
-    "https://static.wixstatic.com/media/2ef1a5_36096ce1f28c4d3499ca1fa74d42973f~mv2.jpg/v1/fill/w_820,h_1353,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/RESUME%20-%20Anjana%20Poulose%20-%20Nov%2025.jpg",
+  resumeUrl: "/Anjana_Poulose_Resume.pdf",
+  resumePreviewImage: "/resume-preview.jpg",
   portraitImage:
     "https://static.wixstatic.com/media/2ef1a5_63b13797c9a34b758f613bd8026301e0~mv2.jpg/v1/crop/x_1000,y_0,w_4000,h_4000/fill/w_960,h_960,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0164_JPG.jpg",
   summary:
-    "I'm a digital marketer skilled in SEO, email automation, content creation, and social media strategy. My work blends data analysis with creative storytelling, helping brands build visibility, generate qualified leads, and improve conversion.",
+    "Digital Marketing Coordinator with 3+ years of experience managing social media strategy across Facebook, Instagram and YouTube, producing video, photo, and graphic content, and coordinating marketing campaigns and live events for hospitality, food, and event clients.",
   extendedSummary:
-    "Currently based in Mississauga, Ontario, I'm gaining hands-on experience as a Digital Marketing Intern at ChefX, London, and continuing my role as Digital Marketing & Social Media Coordinator for ABJ Wedding Planner in Kerala, India. I hold a PGDM in Digital and Content Marketing from York University and a PGDM in UX Design from Humber College — a combination that lets me approach marketing problems the way a designer approaches a product: through research, empathy, and iteration.",
-  badges: ["SEO", "Email Marketing", "Content Strategy", "UX Research"],
+    "Based in Mississauga, Ontario, I'm currently a Digital Marketing Coordinator at Four Points by Sheraton and Boston Pizza in Vaughan. I'm skilled in video editing and creative production using Adobe Creative Suite, Canva, and CapCut, and I keep visual identity consistent across print, digital, and event touchpoints. With a Postgraduate Diploma in Digital and Content Marketing from York University and a Postgraduate Diploma in UX Design from Humber College, I approach marketing the way a designer approaches a product: through research, empathy, and iteration.",
+  badges: ["Social Media", "SEO & AEO", "Content Creation", "UX Research"],
 };
 
-export const heroWords = ["DIGITAL MARKETER", "SEO STRATEGIST", "CONTENT CREATOR", "UX-INFORMED THINKER"];
+export const heroWords = ["DIGITAL MARKETING COORDINATOR", "SOCIAL MEDIA STRATEGIST", "CONTENT CREATOR", "UX-INFORMED THINKER"];
 
 export const skills = [
   {
@@ -71,7 +69,7 @@ export const skillGroups = [
   },
   {
     category: "Marketing Tools",
-    items: ["Google Analytics", "HubSpot", "Airtable", "Marketo Engage", "WordPress", "Meta Business Suite", "Google Tag Manager"],
+    items: ["Google Analytics 4", "Google Business Profile", "HubSpot", "Airtable", "Marketo Engage", "WordPress", "Wix", "Meta Business Suite", "Google Tag Manager", "Hootsuite", "Buffer", "SEMrush", "Trello", "Setmore", "Linktree", "JIRA", "Asana"],
   },
   {
     category: "UX Design & Prototyping",
@@ -83,7 +81,7 @@ export const skillGroups = [
   },
   {
     category: "Graphic Design & Video",
-    items: ["Visual Storytelling", "Branding", "Layout & Typography", "Photoshop", "Illustrator", "Premiere Pro", "CapCut", "Filmora"],
+    items: ["Visual Storytelling", "Branding", "Layout & Typography", "Canva", "Photoshop", "Illustrator", "InDesign", "Premiere Pro", "CapCut", "Filmora"],
   },
   {
     category: "Languages",
@@ -93,80 +91,73 @@ export const skillGroups = [
 
 export const experience = [
   {
-    period: "08/2025 — Present",
-    role: "Digital Marketing Intern",
+    period: "01/2026 — Present",
+    role: "Digital Marketing Coordinator",
+    company: "Four Points by Sheraton, Boston Pizza",
+    location: "Vaughan, Canada",
+    points: [
+      "Plans and executes multi-channel marketing initiatives across social media, Google, and hotel and in-house restaurant (Boston Pizza) promotions, increasing audience reach by 15%.",
+      "Applies SEO and AEO best practices, analyzing search performance and creating customer-focused content that improved local search visibility and engagement.",
+      "Manages the content calendar and schedules 3–5 branded posts weekly, driving 20% growth in social media engagement within three months.",
+      "Creates posts and graphics in Canva and Photoshop, edits short-form video in CapCut, and develops print and campaign assets in Adobe Creative Suite while keeping brand standards consistent.",
+      "Collaborates with the General Manager to review and approve campaigns, and uses analytics to improve post engagement by 10%.",
+    ],
+  },
+  {
+    period: "08/2025 — 12/2025",
+    role: "Digital Marketing Coordinator",
     company: "ChefX, Food Business & Marketing",
     location: "London, Canada",
     points: [
-      "Acquired and applied digital marketing tools such as SEO, CRM, email automation, and lead generation.",
-      "Curated and managed social media content, including creation of engaging reels, fostering reviews, and enhancing community growth.",
-      "Streamlined content management with Airtable, ensuring efficient team collaboration and timely asset delivery.",
+      "Coordinated 15+ digital marketing campaigns with consistent brand standards across digital platforms.",
+      "Developed and scheduled 50+ marketing assets, including social posts, promotional graphics, and video campaigns for restaurant clients.",
+      "Worked with cross-functional teams to deliver 100% on-time campaign execution.",
+      "Analyzed performance and implemented optimizations that contributed to an 18% increase in engagement.",
     ],
   },
   {
-    period: "11/2024 — Present",
-    role: "Digital Marketing & Social Media Coordinator",
+    period: "11/2023 — 12/2025",
+    role: "Social Media & Content Coordinator",
     company: "ABJ Wedding Planner",
-    location: "Kerala, India",
+    location: "Barrie, ON",
     points: [
-      "Managed social media with Meta Business Suite and automated bookings via Setmore, boosting engagement by 40% and reducing response time by 45%.",
-      "Ran targeted paid ad campaigns and integrated Linktree, increasing reach by 70% (3x ROAS) and driving traffic to services.",
-      "Designed and executed Meta Ads, Google Analytics, influencer, and email marketing campaigns — improving open rates by 30% and overall ROI by 25%.",
+      "Led end-to-end campaigns for Canada and India across Instagram, Facebook, and other platforms, growing Instagram followers from 1,000 to 10,000+ in 3 months.",
+      "Designed, built, and maintained the ABJ Events website in Wix, managing content updates, SEO, and link management.",
+      "Produced 200+ marketing assets, including reels, promotional videos, event photography, and branded graphics.",
+      "Improved engagement by 25% using Meta Business Suite and Google Analytics, and coordinated marketing for 50+ weddings and events.",
     ],
   },
   {
-    period: "03/2024 — 10/2025",
-    role: "Restaurant Host",
-    company: "Boston Pizza",
-    location: "Vaughan, Canada",
-    points: [
-      "Welcomed guests, took orders, and ensured an exceptional dining experience.",
-      "Delivered meals and beverages to tables promptly and accurately.",
-      "Managed billing, processed payments, and prepared tables for new customers.",
-    ],
-  },
-  {
-    period: "08/2024 — 12/2024",
-    role: "UX Designer Intern",
-    company: "The Clean Divorce",
-    location: "Toronto, Canada",
-    points: [
-      "Engaged with users and conducted website testing to identify confusion or usability issues.",
-      "Developed wireframes and prototypes to illustrate the intended website layout and functionality.",
-      "Collaborated with developers and content editors to enhance usability and create a more user-friendly experience.",
-    ],
-  },
-  {
-    period: "12/2022 — 06/2023",
+    period: "08/2022 — 06/2023",
     role: "Graphic Designer",
     company: "Photonet Digital Studio",
     location: "Kerala, India",
     points: [
-      "Employed Adobe Creative Suite for high-quality graphic and user interface design, as well as photo manipulation.",
-      "Crafted customized wedding invitations based on user feedback to provide a distinctive experience.",
-      "Produced branding materials including logos, business cards, and promotional materials for a cohesive visual identity.",
+      "Designed brochures, flyers, posters, signage, logos, and business cards in Adobe Creative Suite to brand standards.",
+      "Prepared camera-ready artwork and worked with printers and external vendors on layout, schedules, paper, colour, and quality control.",
+      "Revised design concepts based on client and management feedback before production.",
     ],
   },
 ];
 
 export const education = [
   {
-    period: "Jan 2025 — Aug 2025",
-    program: "PGDM in Digital and Content Marketing",
-    school: "York University",
-    location: "North York, Canada",
+    period: "2025",
+    program: "Postgraduate Diploma in Digital and Content Marketing",
+    school: "York University, School of Continuing Studies",
+    location: "Toronto, Canada",
   },
   {
-    period: "Jan 2024 — Dec 2024",
-    program: "PGDM in UX Design",
+    period: "2024",
+    program: "Postgraduate Diploma in UX Design",
     school: "Humber College",
     location: "Toronto, Canada",
   },
   {
-    period: "Nov 2020 — Aug 2022",
-    program: "Master's in Multimedia",
-    school: "MG University",
-    location: "India",
+    period: "2022",
+    program: "Master of Arts in Multimedia",
+    school: "Mahatma Gandhi University",
+    location: "Kerala, India",
   },
 ];
 

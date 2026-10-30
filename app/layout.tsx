@@ -18,13 +18,13 @@ const siteUrl = "https://anjanapoulose.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${profile.name} — Digital Marketing Specialist & UX-Minded Strategist`,
+    default: `${profile.name} — Digital Marketing Coordinator & UX-Minded Strategist`,
     template: `%s — ${profile.name}`,
   },
   description: profile.summary,
   keywords: [
     "Anjana Poulose",
-    "Digital Marketing Specialist",
+    "Digital Marketing Coordinator",
     "SEO",
     "Social Media Marketing",
     "UX Design",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: profile.name }],
   openGraph: {
-    title: `${profile.name} — Digital Marketing Specialist`,
+    title: `${profile.name} — Digital Marketing Coordinator`,
     description: profile.summary,
     url: siteUrl,
     siteName: profile.name,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${profile.name} — Digital Marketing Specialist`,
+    title: `${profile.name} — Digital Marketing Coordinator`,
     description: profile.summary,
     images: [profile.portraitImage],
   },
@@ -56,7 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "Person",
     name: profile.name,
-    jobTitle: "Digital Marketing Specialist",
+    jobTitle: "Digital Marketing Coordinator",
     email: profile.email,
     telephone: profile.phone,
     url: siteUrl,

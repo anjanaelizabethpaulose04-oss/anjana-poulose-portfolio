@@ -10,7 +10,7 @@ export function Projects() {
           <SectionHeading
             eyebrow="Featured Projects"
             title="Case studies that show the work"
-            description="Three projects spanning career-services strategy, wedding-industry growth, and hands-on creative — each with the full process behind it."
+            description="Four projects spanning restaurant and community marketing, career-services strategy, wedding-industry growth, and hands-on creative — each with the full process behind it."
           />
         </div>
 

@@ -44,6 +44,60 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "boston-pizza-four-points",
+    title: "Boston Pizza / Four Points",
+    subtitle: "Social media & local community marketing",
+    summary:
+      "Social content, promotional copy, Google Business Profile updates, and community outreach that built local awareness — 71.0K Instagram views and 42,552 Google Business Profile views from September to October.",
+    cover: "/projects/campaign.jpg",
+    role: "Digital Marketing Coordinator",
+    client: "Boston Pizza / Four Points by Sheraton (Vaughan, ON)",
+    industry: "Restaurant & Hospitality",
+    timeline: "Jan 2026 — Present",
+    tools: ["Canva", "Adobe Creative Suite", "Meta Business Suite", "Google Business Profile", "GA4", "Instagram", "Facebook"],
+    color: "cyan",
+    overview:
+      "The objective was to build local awareness for restaurant offers and community events. My role covered social content, promotional copy, Google profile updates, and community outreach: planning and scheduling Instagram and Facebook content, creating promotional graphics and copy for lunch specials, Kids Eat Free, and other offers, updating Google Business Profile content, and supporting local marketing initiatives to strengthen brand awareness and customer engagement.",
+    campaigns: {
+      heading: "From Content to Local Awareness",
+      goal: "A mix of digital execution and community marketing that grows visibility and builds local connections.",
+      items: [
+        {
+          title: "Digital Execution",
+          objective: "Plan and schedule content",
+          detail: "Planned and scheduled Instagram, Facebook, and Google Business Profile content, and created testimonial reels and promotional content.",
+        },
+        {
+          title: "Community Outreach",
+          objective: "120 attendees reached",
+          detail: "Reached 120 attendees at golf tournament outreach, with pizzas and event flyers distributed.",
+        },
+        {
+          title: "Local Engagement",
+          objective: "20+ nearby businesses",
+          detail: "Visited 20+ nearby businesses with promotional materials.",
+        },
+      ],
+    },
+    results: [
+      { metric: "42,552", label: "Google Business Profile views" },
+      { metric: "71.0K", label: "Instagram views (+1.2K%)" },
+      { metric: "39.8K", label: "Instagram reach (+1.7K%)" },
+      { metric: "+52.6%", label: "Profile visits (1.1K)" },
+      { metric: "120", label: "Attendees reached at golf tournament outreach" },
+      { metric: "20+", label: "Nearby businesses visited with promotional materials" },
+    ],
+    reflection:
+      "The mix of digital execution and community marketing grew visibility and built local connections. Next, I'm strengthening calls-to-action and tracking calls, directions, inquiries, reservations, link clicks, and partnership leads.",
+    gallery: [
+      { src: "/projects/metrics-top.jpg", alt: "Instagram and Facebook results for Boston Pizza, September to October" },
+      { src: "/projects/metrics-bottom.jpg", alt: "Google Business Profile breakdown showing 42,552 views" },
+      { src: "/projects/community.jpg", alt: "Boston Pizza Community Day photos from Vaughan" },
+      { src: "/projects/design.jpg", alt: "Boston Pizza promotional graphic designs" },
+      { src: "/projects/video.jpg", alt: "Frames from Boston Pizza short-form video" },
+    ],
+  },
+  {
     slug: "career-hub",
     title: "Career Hub",
     subtitle: "Career development & job-readiness platform",
@@ -221,14 +275,14 @@ export const projects: Project[] = [
     title: "ABJ Wedding Planner",
     subtitle: "Digital growth & social media optimization",
     summary:
-      "End-to-end digital marketing for a Kerala-based wedding brand — social automation, paid ads, and lead generation that lifted engagement 40% and ROAS to 3x.",
+      "End-to-end digital marketing for ABJ Events across Canada and India — content planning, SEO, campaign analytics, and creative direction that grew followers from 1,742 to 10.9K organically.",
     cover:
       "https://static.wixstatic.com/media/2ef1a5_520e186881f646d482ea13c6dc13eae0~mv2.jpg/v1/fill/w_1200,h_811,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO.jpg",
     logo: "https://static.wixstatic.com/media/2ef1a5_ab89786767c34efcbaea7290bc78f405~mv2.jpg/v1/fill/w_300,h_112,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2ef1a5_ab89786767c34efcbaea7290bc78f405~mv2.jpg",
-    role: "Digital Marketing & Social Media Coordinator",
-    client: "ABJ Wedding Planner (Kerala, India)",
+    role: "Social Media & Content Coordinator",
+    client: "ABJ Wedding Planner (Canada & Kerala, India)",
     industry: "Weddings & Events",
-    tools: ["Meta Business Suite", "Setmore", "Linktree", "Meta Ads", "Email Marketing", "JustDial"],
+    tools: ["Meta Business Suite", "Wix", "Setmore", "Linktree", "Meta Ads", "Email Marketing", "JustDial"],
     color: "purple",
     overview:
       "ABJ Wedding Planner needed to grow its digital presence in a highly competitive Kerala market. The goal: improve brand visibility, streamline client communication, and deliver measurable ROI through smarter marketing execution — managing the full digital workflow from content to paid advertising.",
@@ -282,16 +336,19 @@ export const projects: Project[] = [
       ],
     },
     results: [
-      { metric: "+40%", label: "Social engagement" },
-      { metric: "-45%", label: "Client response time" },
-      { metric: "+70%", label: "Paid reach" },
-      { metric: "3x", label: "Return on ad spend (ROAS)" },
-      { metric: "+30%", label: "Email open rates" },
-      { metric: "+25%", label: "Overall marketing ROI" },
+      { metric: "10.9K", label: "Followers, up from 1,742 (organic)" },
+      { metric: "63.5K", label: "Instagram Reels views" },
+      { metric: "+734%", label: "Facebook views (642)" },
+      { metric: "39K", label: "YouTube all-time views" },
+      { metric: "5K", label: "YouTube subscribers" },
+      { metric: "454", label: "Google Business Profile interactions" },
     ],
     reflection:
       "This project shows my ability to manage social media end-to-end, run paid boosts, automate communication, and use analytics to improve performance — a practical, business-focused approach to digital marketing in a competitive industry. Reels were the main driver of reach, while consistent posting and targeted boosts increased engagement and customer inquiries across every channel.",
     gallery: [
+      { src: "/projects/abj-profiles.jpg", alt: "ABJ Wedding Planner Instagram and Facebook profiles" },
+      { src: "/projects/abj-ig.jpg", alt: "ABJ Instagram performance graph, August to October" },
+      { src: "/projects/abj-bottom.jpg", alt: "ABJ Google Business Profile, YouTube, and Facebook stats" },
       {
         src: "https://static.wixstatic.com/media/2ef1a5_68d49c6ce86f43d09f7f9c65a3d335bf~mv2.jpeg/v1/fill/w_704,h_784,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2ef1a5_68d49c6ce86f43d09f7f9c65a3d335bf~mv2.jpeg",
         alt: "ABJ Wedding Planner lead flow and customer journey diagram",

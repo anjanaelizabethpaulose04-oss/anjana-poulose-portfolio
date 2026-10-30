@@ -101,9 +101,9 @@ export function Hero() {
             className="mt-14 flex flex-wrap gap-x-10 gap-y-4"
           >
             {[
-              ["3", "Featured case studies"],
-              ["40%", "Engagement lift, ABJ Wedding"],
-              ["6", "Marketing certifications"],
+              ["71K", "Instagram views, Boston Pizza"],
+              ["42.5K", "Google Business Profile views"],
+              ["10.9K", "ABJ Instagram followers"],
             ].map(([stat, label]) => (
               <div key={label}>
                 <p className="font-display text-2xl font-bold text-gradient">{stat}</p>

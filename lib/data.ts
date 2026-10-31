@@ -5,7 +5,7 @@ export const profile = {
   tagline: "Turning ideas into measurable growth.",
   location: "Mississauga, Ontario, Canada",
   phone: "+1 249-989-5321",
-  email: "anjanapaulose0404@gmail.com",
+  email: "anjanapoulose1999@gmail.com",
   linkedin: "https://www.linkedin.com/in/anjanapoulose",
   resumeUrl: "/Anjana_Poulose_Resume.pdf",
   resumePreviewImage: "/resume-preview.jpg",
@@ -193,5 +193,5 @@ export const certifications = [
 
 export const socialLinks = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/anjanapoulose" },
-  { label: "Email", href: "mailto:anjanapaulose0404@gmail.com" },
+  { label: "Email", href: "mailto:anjanapoulose1999@gmail.com" },
 ];

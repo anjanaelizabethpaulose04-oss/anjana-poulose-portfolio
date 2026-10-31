@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     }
 
     const apiKey = process.env.RESEND_API_KEY;
-    const toAddress = process.env.CONTACT_TO_EMAIL || "anjanapaulose0404@gmail.com";
+    const toAddress = process.env.CONTACT_TO_EMAIL || "anjanapoulose1999@gmail.com";
     // Resend's shared test sender works with zero setup. Once you verify your own
     // domain in Resend, set CONTACT_FROM_EMAIL to something like
     // "Portfolio <hello@yourdomain.com>" for better deliverability.

@@ -75,6 +75,7 @@ export function About() {
                         <p className="text-xs text-text-secondary">
                           {ed.school} · {ed.location}
                         </p>
+                        <p className="mt-1 max-w-md text-xs leading-relaxed text-text-secondary">{ed.focus}</p>
                       </div>
                       <span className="whitespace-nowrap text-xs font-medium text-text-secondary">{ed.period}</span>
                     </li>

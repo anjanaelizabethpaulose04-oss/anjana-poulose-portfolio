@@ -65,11 +65,14 @@ export const skillGroups = [
       "Content Strategy & Planning",
       "Lead Generation & Retargeting",
       "KPI & ROI Analysis",
+      "SEO & AEO",
+      "Competitor Analysis",
+      "Digital Storytelling",
     ],
   },
   {
     category: "Marketing Tools",
-    items: ["Google Analytics 4", "Google Business Profile", "HubSpot", "Airtable", "Marketo Engage", "WordPress", "Wix", "Meta Business Suite", "Google Tag Manager", "Hootsuite", "Buffer", "SEMrush", "Trello", "Setmore", "Linktree", "JIRA", "Asana"],
+    items: ["Google Analytics 4", "Google Business Profile", "HubSpot", "Airtable", "Marketo Engage", "WordPress", "Wix", "Meta Business Suite", "Google Tag Manager", "Hootsuite", "Buffer", "SEMrush", "Trello", "Setmore", "Linktree", "JIRA", "Asana", "Microsoft Word, Excel, PowerPoint", "VR Hardware & Software (Meta Quest)"],
   },
   {
     category: "UX Design & Prototyping",
@@ -81,7 +84,11 @@ export const skillGroups = [
   },
   {
     category: "Graphic Design & Video",
-    items: ["Visual Storytelling", "Branding", "Layout & Typography", "Canva", "Photoshop", "Illustrator", "InDesign", "Premiere Pro", "CapCut", "Filmora"],
+    items: ["Visual Storytelling", "Branding", "Layout & Typography", "Canva", "Photoshop", "Illustrator", "InDesign", "Premiere Pro", "CapCut", "Filmora", "Brand Guidelines", "Print Production", "Camera-Ready Artwork", "Digital Asset & Photo Library Management"],
+  },
+  {
+    category: "Soft Skills",
+    items: ["Creative Thinking", "Problem-Solving", "Attention to Detail", "Organizational Skills", "Project Management", "Written & Oral Communication", "Collaboration", "Customer Service", "Time Management", "Adaptability", "Interpersonal Skills", "Cultural Awareness", "Professionalism"],
   },
   {
     category: "Languages",
@@ -146,18 +153,21 @@ export const education = [
     program: "Postgraduate Diploma in Digital and Content Marketing",
     school: "York University, School of Continuing Studies",
     location: "Toronto, Canada",
+    focus: "Digital Advertising, Online Marketing, Content and Email Marketing, Brand Management, Marketing Analytics",
   },
   {
     period: "2024",
     program: "Postgraduate Diploma in UX Design",
     school: "Humber College",
     location: "Toronto, Canada",
+    focus: "User Research, Wireframing & Prototyping, Usability Testing, Immersive/VR Design, Digital Channel Design (Websites & Apps)",
   },
   {
     period: "2022",
     program: "Master of Arts in Multimedia",
     school: "Mahatma Gandhi University",
     location: "Kerala, India",
+    focus: "Graphic Design, Videography & Video Editing, Animation, Motion Graphics",
   },
 ];
 
@@ -183,12 +193,10 @@ export const process = [
 ];
 
 export const certifications = [
-  { name: "Google Analytics", year: "2025", issuer: "Google" },
-  { name: "HubSpot Marketing Hub Software Certificate", year: "2025", issuer: "HubSpot Academy" },
-  { name: "HubSpot Inbound Marketing", year: "2025", issuer: "HubSpot Academy" },
+  { name: "Google Analytics Certification", year: "2025", issuer: "Google" },
+  { name: "HubSpot Inbound Marketing Certification", year: "2025", issuer: "HubSpot Academy" },
   { name: "Google Digital Marketing & E-Commerce Certificate", year: "2025", issuer: "Google" },
-  { name: "Co-Curricular Record (CCR)", year: "2024", issuer: "York University" },
-  { name: "TCPS: CORE Certification", year: "2024", issuer: "Panel on Research Ethics" },
+  { name: "Valid G License & Vehicle", year: "Valid", issuer: "Driver's license" },
 ];
 
 export const socialLinks = [

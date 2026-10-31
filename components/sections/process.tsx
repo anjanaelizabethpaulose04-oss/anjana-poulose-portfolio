@@ -11,11 +11,11 @@ export function Process() {
         <SectionHeading
           eyebrow="Process"
           title="My design-informed marketing process"
-          description="Every campaign and case study on this site follows the same five-stage rhythm — borrowed from UX practice and applied to marketing strategy."
+          description="Every campaign and case study on this site follows the same three steps — borrowed from UX practice and applied to marketing strategy."
           align="center"
         />
 
-        <div className="relative mt-16 grid gap-6 md:grid-cols-5">
+        <div className="relative mt-16 grid gap-6 md:grid-cols-3">
           <div className="absolute left-0 right-0 top-8 hidden h-px bg-border md:block" />
           {process.map((stage, i) => (
             <Reveal key={stage.step} delay={i * 0.08} className="relative">

@@ -163,34 +163,22 @@ export const education = [
 
 export const process = [
   {
-    step: "Discover",
-    title: "Research & Audience Insight",
+    step: "Understand",
+    title: "Audience & Objective",
     description:
-      "Every project starts with research — audience personas, competitive analysis, and concept mapping to understand the real problem before proposing a solution.",
+      "Every project starts with the audience and the objective, so the work solves the real problem before any content is made.",
   },
   {
-    step: "Define",
-    title: "Strategy & Content Planning",
+    step: "Create",
+    title: "Clear, On-Brand Content",
     description:
-      "Insights get translated into an editorial mission, content pillars, and a multi-channel plan mapped to the customer journey from awareness to conversion.",
+      "Clear, on-brand content across channels: social posts, graphics, short-form video, print, and Google Business Profile updates.",
   },
   {
-    step: "Design",
-    title: "Wireframes, Prototypes & Creative",
+    step: "Refine",
+    title: "Review & Next Action",
     description:
-      "Wireframes, prototypes, and campaign creative are built and usability-tested — borrowing UX rigor to make marketing execution more intuitive.",
-  },
-  {
-    step: "Deliver",
-    title: "Launch & Amplify",
-    description:
-      "Campaigns go live across paid, organic, and email channels, with tracking in place from day one so performance can be measured accurately.",
-  },
-  {
-    step: "Measure",
-    title: "Analyze & Iterate",
-    description:
-      "KPIs — CTR, CPL, engagement, ROAS — are reviewed against goals, and the strategy is refined based on what the data actually shows.",
+      "Review performance and refine the next action, tracking views, reach, visits, follows, and interactions against the goal.",
   },
 ];
 
